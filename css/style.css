@@ -1407,7 +1407,8 @@ a:focus {
 
 .blog .blog-img {
     position: relative;
-    width: 100%;
+    width: 500px;
+    height: 280px;
     overflow: hidden;
 }
 
