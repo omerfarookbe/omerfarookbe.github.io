@@ -1699,6 +1699,9 @@ a:focus {
   #skills .container .div-card .c-sharp {
     background-image: url("../img/icon/c-sharp.png");
   }  
+  #skills .container .div-card .blazor {
+    background-image: url("../img/icon/blazor.png");
+  }    
   #skills .container .div-card .vb-dotnet {
     background-image: url("../img/icon/vb-dotnet.png");
   }   
@@ -1708,6 +1711,9 @@ a:focus {
   #skills .container .div-card .typescript {
     background-image: url("../img/icon/typescript.png");
   }
+  #skills .container .div-card .bootstrap {
+    background-image: url("../img/icon/bootstrap.png");
+  }   
   #skills .container .div-card .html {
     background-image: url("../img/icon/html-5.png");
   }
