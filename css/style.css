@@ -1711,6 +1711,9 @@ a:focus {
   #skills .container .div-card .typescript {
     background-image: url("../img/icon/typescript.png");
   }
+  #skills .container .div-card .react {
+    background-image: url("../img/icon/react.png");
+  }
   #skills .container .div-card .bootstrap {
     background-image: url("../img/icon/bootstrap.png");
   }   
@@ -1771,9 +1774,33 @@ a:focus {
   #skills .container .div-card .docker {
     background-image: url("../img/icon/docker.png");
   }  
+  #skills .container .div-card .kubernetes {
+    background-image: url("../img/icon/kubernetes.png");
+  }  
+  #skills .container .div-card .bicep {
+    background-image: url("../img/icon/bicep.png");
+  }  
   #skills .container .div-card .agile {
     background-image: url("../img/icon/agile.png");
   }    
   #skills .container .div-card .waterfall {
     background-image: url("../img/icon/waterfall.png");
-  }    
+  }
+  
+/*Icons - AI & ML */
+#skills .container .div-card .python {
+    background-image: url("../img/icon/python.png");
+}
+#skills .container .div-card .langchain {
+    background-image: url("../img/icon/langchain.png");
+}
+#skills .container .div-card .openai {
+    background-image: url("../img/icon/openai.png");
+}
+#skills .container .div-card .rag {
+    background-image: url("../img/icon/rag.png");
+}
+#skills .container .div-card .databricks {
+    background-image: url("../img/icon/databricks.png");
+}
+
