@@ -8,15 +8,18 @@ A premium portfolio showcase for Omer Farook, Senior Software Engineer and Platf
 - **Premium Design**: Sleek, responsive, and animated UI using Tailwind CSS and shadcn/ui.
 - **Architectural Excellence**: Demonstrates professional project structure and clean code practices.
 - **Interactive Experience**: Smooth transitions, floating tech badges, and high-quality professional imagery.
+- **Showcase Sections**: Comprehensive sections for Experience, Skills, Publications, and Contact.
 
 ## 🛠️ Technology Stack
 
 - **Framework**: [React 18](https://reactjs.org/)
 - **Build Tool**: [Vite](https://vitejs.dev/)
+- **Routing**: [React Router](https://reactrouter.com/)
+- **Data Fetching**: [TanStack Query](https://tanstack.com/query)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **Components**: [shadcn/ui](https://ui.shadcn.com/)
 - **Icons**: [Lucide React](https://lucide.dev/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/) techniques & CSS animations.
+- **Animations**: CSS animations & Tailwind transitions.
 
 ## 🚀 Getting Started
 
@@ -29,10 +32,10 @@ A premium portfolio showcase for Omer Farook, Senior Software Engineer and Platf
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/omerfarookbe/omerfarookbe.github.io.git
 
 # Navigate to the directory
-cd hero-alt-showcase
+cd omerfarookbe.github.io
 
 # Install dependencies
 npm install
