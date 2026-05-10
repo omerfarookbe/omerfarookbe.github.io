@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail, Twitter, Facebook } from "lucide-react";
+import { HitCounter } from "./HitCounter";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -42,9 +43,12 @@ export const Footer = () => {
           </div>
 
           <div className="pt-12 border-t border-white/5 w-full flex flex-col md:flex-row items-center justify-between gap-6">
-            <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-muted-foreground/60">
-              &copy; {currentYear} Omer Farook. All Rights Reserved.
-            </p>
+            <div className="flex flex-col md:flex-row items-center gap-4">
+              <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-muted-foreground/60">
+                &copy; {currentYear} Omer Farook. All Rights Reserved.
+              </p>
+              <HitCounter />
+            </div>
             <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4 text-[11px] uppercase tracking-[0.2em] font-bold text-muted-foreground">
               <a href="#home" className="hover:text-primary transition-colors">Home</a>
               <a href="#about" className="hover:text-primary transition-colors">About</a>
