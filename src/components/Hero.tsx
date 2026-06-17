@@ -32,12 +32,12 @@ export const Hero = () => {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
-18+ years of experience in leveraging technology for business solutions, specializing in architecture, modernization, innovation, automation, cloud-native application development, and AI-driven solutions including LLMs, RAG pipelines, and intelligent data platforms.
+              18+ years of experience in leveraging technology for business solutions, specializing in architecture, modernization, innovation, automation, cloud-native application development, and AI-driven solutions including LLMs, RAG pipelines, and intelligent data platforms.
             </p>
 
             <div className="flex flex-wrap gap-4">
               <Button variant="hero" size="lg" asChild>
-                <a href="/resume/Resume_Omer_Farook.pdf" target="_blank">
+                <a href="/resume/Omer-Farook-Resume.pdf" target="_blank">
                   <Download className="mr-2 h-5 w-5" />
                   Download Resume
                 </a>
@@ -82,19 +82,19 @@ export const Hero = () => {
             <div className="relative">
               {/* Glowing border effect */}
               <div className="absolute inset-0 bg-gradient-primary rounded-3xl blur-2xl opacity-30 animate-glow" />
-              
+
               {/* Image container with glassmorphism and magic shimmer */}
               <div className="relative rounded-3xl overflow-hidden border border-primary/20 bg-card/30 backdrop-blur-sm p-2 shadow-2xl group">
                 <div className="absolute inset-0 z-20 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-700">
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent skew-x-[-20deg] animate-shimmer" />
                 </div>
-                
+
                 <img
                   src={heroImage}
                   alt="Omer Farook - Senior Software Engineer"
                   className="w-full h-full min-h-[500px] lg:h-[650px] rounded-2xl object-cover object-top transition-transform duration-700 group-hover:scale-[1.02]"
                 />
-                
+
                 {/* Extra magic corner glows */}
                 <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 blur-3xl rounded-full -translate-y-1/2 translate-x-1/2" />
                 <div className="absolute bottom-0 left-0 w-32 h-32 bg-accent/10 blur-3xl rounded-full translate-y-1/2 -translate-x-1/2" />
